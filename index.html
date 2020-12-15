@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Website</title>
+
+    <!-- This is For Jquery  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+ <!-- Use MDB style -->
+  <!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<!-- google fonts link -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+
+<!--Navbar-->
+<nav class="navbar navbar-dark black lighten-1 mb-4">
+
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="#">Food Recipe</a>
+  
+    <!-- Collapse button -->
+    <button class="navbar-toggler second-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent23"
+      aria-controls="navbarSupportedContent23" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
+    </button>
+  
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent23">
+  
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+      </ul>
+      <!-- Links -->
+  
+    </div>
+    <!-- Collapsible content -->
+  
+  </nav>
+  <!--/.Navbar-->
+
+
+
+  <div class="container my-5 z-depth-1">
+
+
+    <!--Section: Content-->
+    <section class="dark-grey-text">
+  
+      <div class="row pr-lg-5">
+        <div class="col-md-7 mb-4">
+  
+          <div class="view">
+            <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80" class="img-fluid" alt="smaple image" style="display:flex;justify-content:center">
+          </div>
+  
+        </div>
+        <div class="col-md-5 d-flex align-items-center">
+          <div>
+            
+            <h3 class="font-weight-bold mb-4">Find Dish Recipe</h3>
+  
+              <p>Enter Any Dish Name To Find Their Recipes</p>
+  
+              <!-- <button type="button" class="btn btn-blue btn-rounded mx-0" id="serchbtn" onclick="scrollweb()">Search Now</button> -->
+  
+          </div>
+        </div>
+      </div>
+  
+    </section>
+    <!--Section: Content-->
+  
+  
+  </div>
+
+<div class="container">
+
+
+    <div class="md-form">
+        <input type="text" id="dishname" class="form-control">
+        <label for="form1">Your Dish Name Here</label>
+      </div>
+      <button type="button" class="btn btn-info" id="search">Search Now</button>
+      <button type="button" class="btn btn-info" id="clear" onclick="clearall()">Clear All</button>
+</div>
+
+<div id="result">
+
+</div>
+ 
+  
+
+  <!-- Footer -->
+<footer class="page-footer font-small indigo darken-4 py-4" style="">
+
+    <!-- Footer Elements -->
+    <div class="container">
+  
+      <div class="row">
+        <div class="col-md-6 d-flex justify-content-start">
+          <!-- Copyright -->
+          <div class="footer-copyright text-center bg-transparent">© 2020 Copyright:
+            <a href="https://mdbootstrap.com/education/bootstrap/"> FoodRecipe</a>
+          </div>
+          <!-- Copyright -->
+        </div>
+        <div class="col-md-6 d-flex justify-content-end">
+          <ul class="list-unstyled d-flex mb-0">
+            <li>
+                <a class="mr-3" role="button"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+                <a class="mr-3" role="button"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+                <a class="mr-3" role="button"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+                <a class="" role="button"><i class="fab fa-youtube"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  
+    </div>
+    <!-- Footer Elements -->
+  
+  </footer>
+  <!-- Footer -->
+
+
+<script src="index.js"></script>
+    <!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+</body>
+</html>
